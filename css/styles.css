@@ -1,0 +1,84 @@
+
+ /**************
+ GENERAL
+ **************/
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #414143;
+    color: #fff;
+    /* font-family: ? */
+  }
+
+
+
+/**************
+HEADER
+**************/
+
+ .header {
+   position: relative;
+   text-align: center;
+   background: rgba(255, 0, 0, .5);
+ }
+
+  /* navigation */
+
+ .header .menu {
+   height: 40px;
+   background: rgba(0, 0, 0, .4);
+ }
+
+ .menu__list {
+   padding: 0;
+   margin: 0;
+   position: absolute;
+   right: 0;
+   top: 10px;
+ }
+
+ .menu__item {
+   display: inline-block;
+   margin-right: 20px;
+ }
+
+ .menu__link {
+   text-decoration: none;
+   color: #fff;
+ }
+
+ /**************
+ MAIN content
+ **************/
+
+ .content {
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+
+ .content__item {
+   display: inline-block;
+   border: 2px white solid;
+   width: 330px;
+   height: 230px;
+ }
+
+ .content__item-description {
+   width: 70%;
+   background: rgba(153, 204, 255, .4);
+ }
+
+
+ .content__item h4, p {
+   display: inline-block;
+   margin: 0;
+ }
+
+  .dragon-knigh {
+   background-image: url('../img/dragon-knigh.jpg');
+ }
