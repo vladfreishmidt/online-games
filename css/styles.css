@@ -25,7 +25,8 @@ HEADER
 /* video bg */
 
 .video-header-wrapper {
-  position: relative; 
+  position: relative;
+  margin-bottom: 20px;
 }
 
 .video-container {
@@ -44,6 +45,7 @@ HEADER
 
  .header h1 {
    padding-top: 20%;
+   font-size: 3em;
  }
 
   /* navigation */
@@ -79,11 +81,22 @@ HEADER
  **************/
 
  .content {
-   max-width: 1200px;
+
+
+ }
+
+ .content__heading {
+   margin: 0 0 20px 0;
+   text-align: center;
+   text-transform: uppercase;
+ }
+
+ .content__collection {
    margin: 0 auto;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
+   max-width: 1600px;
  }
 
  .content__item {
@@ -91,19 +104,58 @@ HEADER
    border: 2px white solid;
    width: 30%;
    height: 230px;
+   margin: 10px;
+   background-size: cover;
+   background-repeat: no-repeat;
  }
-
- .content__item-description {
-   width: 70%;
-   background: rgba(153, 204, 255, .4);
- }
-
 
  .content__item h4, p {
    display: inline-block;
    margin: 0;
  }
 
-  .dragon-knigh {
+ .content__item-description {
+   background: rgba(153, 204, 255, .4);
+   transition: opacity .75s ease-out;
+   opacity: 0;
+ }
+
+ .content__item:hover .content__item-description {
+   opacity: 1;
+ }
+
+ .dragon-knigh {
    background-image: url('../img/dragon-knigh.jpg');
+ }
+
+ .fortnite {
+  background-image: url('../img/fortnite.jpg');
+}
+
+ .panzar {
+  background-image: url('../img/panzar.jpg');
+  background-position: center;
+ }
+
+ .blade_and_soul {
+  background-image: url('../img/blade_and_soul.jpg');
+  background-position: top;
+ }
+
+ .crossout {
+  background-image: url('../img/crossout.jpg');
+  background-position: top;
+ }
+
+
+
+ /**************
+ FOOTER
+ **************/
+
+ footer {
+   background: #000;
+   height: 150px;
+   padding: 70px;
+   text-align: center;
  }
