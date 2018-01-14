@@ -147,6 +147,22 @@ HEADER
   background-position: top;
  }
 
+ .warface {
+  background-image: url('../img/warface.jpg');
+ }
+
+ .wt {
+  background-image: url('../img/wt.jpg');
+ }
+
+ .wot {
+  background-image: url('../img/wot.jpg');
+ }
+
+ .black-desert {
+  background-image: url('../img/black-desert.jpg');
+ }
+
 
 
  /**************
